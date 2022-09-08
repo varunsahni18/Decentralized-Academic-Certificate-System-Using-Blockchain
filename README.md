@@ -1,23 +1,26 @@
-﻿DECENTRALIZED ACADEMIC CERTIFICATE SYSTEM DISTRIBUTION USING BLOCKCHAIN TECHNOLOGY
+# DECENTRALIZED ACADEMIC CERTIFICATE SYSTEM DISTRIBUTION USING BLOCKCHAIN TECHNOLOGY
 
 
-Akarsh G Shroff  
-Department of Computer Science and Information Systems 
-*BITS Pilani,* 
-Pilani, India
-f20181121@pilani.bits-pilani.ac.in
 
-` `Varun Sahni
+
+Varun Sahni
 Department of Computer Science and Information Systems 
 *BITS Pilani,* 
 Pilani, India
 f20200144@pilani.bits-pilani.ac.in
 
+` `Akarsh G Shroff  
+Department of Computer Science and Information Systems 
+*BITS Pilani,* 
+Pilani, India
+f20181121@pilani.bits-pilani.ac.in
+
 Under the guidance of: 
 
 Ashutosh Bhatia, 
-
-Assistant Professor, Department of Computer Science and Information Systems, *BITS Pilani,* 
+Assistant Professor, 
+Department of Computer Science and Information Systems,
+*BITS Pilani,* 
 Pilani, India
 
 
