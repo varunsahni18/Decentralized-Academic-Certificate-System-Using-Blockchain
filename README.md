@@ -3,33 +3,18 @@
 
 
 
-Varun Sahni
-Department of Computer Science and Information Systems 
-*BITS Pilani,* 
-Pilani, India
-f20200144@pilani.bits-pilani.ac.in
+* Varun Sahni Department of Computer Science and Information Systems *BITS Pilani,* Pilani, India f20200144@pilani.bits-pilani.ac.in
 
-` `Akarsh G Shroff  
-Department of Computer Science and Information Systems 
-*BITS Pilani,* 
-Pilani, India
-f20181121@pilani.bits-pilani.ac.in
-
-Under the guidance of: 
-
-Ashutosh Bhatia, 
-Assistant Professor, 
-Department of Computer Science and Information Systems,
-*BITS Pilani,* 
-Pilani, India
+* Akarsh G Shroff Department of Computer Science and Information Systems *BITS Pilani,* Pilani, India f20181121@pilani.bits-pilani.ac.in
+## Under the Guidance of
+* Ashutosh Bhatia, Assistant Professor, Department of Computer Science and Information Systems, *BITS Pilani,* Pilani, India
 
 
-
 
 ***Abstract*— *In this paper we propose to use a blockchain based system, which is employed to store, distribute and verify academic certificates so as to boost efficiency and security. It  is predicated on utilizing Ethereum smart contracts and leverages the advantages of IPFS (InterPlanetary File System), to store the certificates in an exceedingly decentralized filing system. Smart contracts provide a secure distributed and shared decentralized ledger of all assets and transactions. A cryptographic hash function shall be applied on document and result could also be stored on a public blockchain in a very transaction signed by private key of issuer institution which ensures the validity of documents.*** 
 
 ***Keywords—Blockchain, IPFS, Smart Contracts, Solidity***
-1. # Introduction 
+# 1. Introduction 
 Problems we face today with academic degrees are backed by corruption, system flaws, ability to effortlessly falsify and distribute these degrees in large quantities are impractical ways to validate them if needed to try and do so [1-3]. Certificates which are issued in a very traditional/physical way is easily copied and their integrity and origin is tough to impossible to verify. Other issues are associated with the way these certificates are issued, delays because of administrative level incompatibilities or miscommunication, credential transfers among faculties/universities.
 Blockchain are going to be one amongst the subsequent technology revolutions thanks to its main characteristics: no central authority, elimination of intermediaries, real-time settlement, drastic reduction in operational costs, high levels of transparency [4-7]. It will be applied in several domains such as: government [8], healthcare [9],
 104 International Journal on Information Technologies & Security, No 4 (vol. 12), 2020
@@ -38,13 +23,13 @@ A variety of blockchain applications are developed for educational purposes. B
 The answer we propose during this paper, uses concept of Blockchain and smart contracts to distribute and verify certificates. Blockchain are** often implemented as: (1) decentralized network, in sense that there's no node that acts because the central server for the network, (2) distributed network, in sense that responsibilities are shared by the nodes. For the project’s implementation we have employed Ethereum Platform network [19] and Solidity language [20] so as to deploy smart contracts. Certificates are going to be saved on IPFS (Interplanetary File System) [21].
 The main roles of this implementation are: accreditation body, university, students and employer. Nodes on the network can issue and verify the credentials for any user on the network. A university is to blame for issuing certificates with the valid information, including student name, degree level, the title of the degree, year awarded, university, and serial number assigned by the system (which will be used as a singular identifier). An accreditation body can validate a certificate and an employer can issue verified employment/skill/title review records.
 To check the authority of the certificate, the interested entity should use a novel identifier/serial number that's initially available to the Issuer University, accreditation body, student or employee. To assure that this certificate has been issued by a trusted authority, it must be signed with a personal key, which is merely available to the university and therefore the issuing authority. On the opposite hand, the accreditation body uses its private key so as to accredit the university similarly. When the university issues a certificate, it's automatically marked as valid/accredited and put into the network.
-1. # Proposed solution
-   1. ## *Solution*
+# 1. Proposed solution
+   ## 1. *Solution*
 In this study, it's aimed to verify and distribute digital certificates given to the students, by using Ethereum Blockchain based smart contract. artificial language that's wont to deploy smart contracts is termed “Solidity”. We have chosen Solidity, because it's a well-established programing language used for coding smart contracts; other alternatives don't offer a stable and efficient environment.
 The code written in Solidity is compiled and converted to bytecode and sent to the Ethereum blockchain as a wise Contract.
 The main roles proposed for the system are: (1) issuer, which may be universities or training centers; (2) users, which might be students, employers or academic institutions; (3) Accreditation body, which serves to validate the certificate. Uploading certificate to the blockchain is finished only by issuers, who can: add credentials, view their credentials or issue credentials to user. On the opposite hand user can: view the list of their received credentials; make their credential public or not.
 Once a certificate has been added to the blockchain, it can not be removed, and each activity regarding this contract is publicly available. counting on how universities and accreditation bodies work together, a certificate may be verified at a later time, or upon its insertion into the blockchain.
-1. ## *Architecture of the System*
+   ## 2. *Architecture of the System*
 Authenticity of a certificate is easily validated and tracked back to the issuing and accreditation body;
 International Journal on Information Technologies & Security, No 4 (vol. 12), 2020 107
 otherwise, the certificate is marked as invalid, although it'll be almost impossible to insert a certificate without proper authority.
@@ -56,7 +41,7 @@ Having this platform rely upon blockchain makes it almost impossible to be hac
 
 
 ![](Aspose.Words.672c8f81-201d-40e8-ade1-ce1a66b1784c.001.png)
-1. # Implementation design and testing
+   ## 3. Implementation design and testing
 The development process of this application, which aims to distribute and verify academic certificates is implementing using Ethereum blockchain based smart contract. Ethereum allows the event and execution of smart contracts and “distributed autonomous applications – Dapps” [35]. Smart contracts and applications on the blockchain run on the Ethereum Virtual Machine (EVM). Operation of smart contracts on the blockchain and approval of the transactions bring costs such as: (1) amount data sent, (2) contract size in byte code and (3) transaction fees [36, 37].
 1. ## *Development Requirements*
 Since this sort of application requires a blockchain network, this network incurs fees and is just used for full-developed applications. It can cause huge financial losses in possible errors. Therefore, to deploy our solution, would be appropriate first to check it locally, so send to the Ethereum blockchain. For development of application we'd like to use:
@@ -66,7 +51,7 @@ Since this sort of application requires a blockchain network, this network inc
 
 Bottom of Form
 
-1. ## *Further Development*
+   ## 2. *Further Development*
 For further development we'll add several other features to this smart contract, like the flexibility to limit some functions only to specific addresses (universities), and functions that enable universities to vary a certificate or data.
 The client side application consists of just one part. it's expected to be divided into 3 applications, one for accrediting body, one for the university and also the other of student or employer. Actions like entering an account and signing a transaction are planned to be automatic to create the method easier and logs created for every action so as to forestall abuse and add security. Application for the accrediting body and universities should be considered private and run only on a neighborhood and secure network and keep logs available for any appropriate authority to test.
 
